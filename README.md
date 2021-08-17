@@ -43,3 +43,15 @@ The game takes place in phases. First, the user must be asked how wide the board
 The user will begin to play, indicating if he wants to move the rabbits in any direction (with the arrow keys of the corresponding keyboard) or simply, move forward towards the harvest (with the "Enter" key of the keyboard, for example), being able to observe , then, the updated board with the indicated rabbit movement.
 
 If some of the rules specified above are met to end the game, the program will show the board somehow identifying the squares where the deaths of some rabbits occurred (if any), the squares where both the foxes and the surviving rabbits are located and if the user lost or won.
+
+
+## How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com), [Ruby](https://www.ruby-lang.org/en/) and [Gem Colorize]https://github.com/fazibear/colorize) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/r10rivas/foxes-vs-rabbits.git
+
+# Run the game
+$ ruby game.rb
+```
